@@ -7,7 +7,8 @@
 (function($) {
 
 	var	$window = $(window),
-		$body = $('body');
+		$body = $('body'),
+		// $button = $('button');
 
 	// Breakpoints.
 		breakpoints({
@@ -25,6 +26,13 @@
 				$body.removeClass('is-preload');
 			}, 100);
 		});
+
+	// Redirect and refresh page when email button clicked.
+		// $button.on('button', function refreshPage(){
+		// 	location.reload();
+		// }, );
+
+	
 
 	// Mobile?
 		if (browser.mobile)
