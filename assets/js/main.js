@@ -1,14 +1,8 @@
-/*
-	Fractal by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 (function($) {
 
 	var	$window = $(window),
-		$body = $('body'),
-		// $button = $('button');
+		$body = $('body');
 
 	// Breakpoints.
 		breakpoints({
@@ -27,12 +21,6 @@
 			}, 100);
 		});
 
-	// Redirect and refresh page when email button clicked.
-		// $button.on('button', function refreshPage(){
-		// 	location.reload();
-		// }, );
-
-	
 
 	// Mobile?
 		if (browser.mobile)
