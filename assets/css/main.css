@@ -114,6 +114,46 @@ input, select, textarea {
 		}
 
 /* Type */
+.topnav #myLinks {
+	display: none;
+  }
+  
+  .topnav-menu a {
+	color: #fff;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+	background-color: #4696E5;
+  }
+  
+  .topnav a.icon {
+	background: black;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+  }
+  
+  .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  .active {
+	background-color: #4696E5;
+	color: #fff;
+  }
+
+	/* menu {
+		display: flex;
+		justify-content: center;
+
+
+	  
+
+
+	} */
 
 	body {
 		color: #999999;
